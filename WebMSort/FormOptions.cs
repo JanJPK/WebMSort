@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WebMSort
 {
-    public partial class Form1 : Form
+    public partial class FormOptions : Form
     {
-        public Form1()
+        public FormOptions()
         {
             InitializeComponent();
         }
