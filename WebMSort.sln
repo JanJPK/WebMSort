@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMSort", "WebMSort\WebMSort.csproj", "{B8352D40-AF08-48BE-B94D-B2EAE9AE50A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8352D40-AF08-48BE-B94D-B2EAE9AE50A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8352D40-AF08-48BE-B94D-B2EAE9AE50A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8352D40-AF08-48BE-B94D-B2EAE9AE50A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8352D40-AF08-48BE-B94D-B2EAE9AE50A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D3833FE-6885-46AD-BC7D-7D1B65CCD0E0}
+	EndGlobalSection
+EndGlobal
