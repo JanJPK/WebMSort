@@ -1,7 +1,24 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WebMSort.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FFmpegPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RenamingMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NSFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ns_</Value>
+    </Setting>
+    <Setting Name="SFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">s_</Value>
+    </Setting>
+    <Setting Name="NSFolderName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">no_sound</Value>
+    </Setting>
+    <Setting Name="SFolderName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sound</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

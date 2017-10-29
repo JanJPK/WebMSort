@@ -12,25 +12,14 @@ namespace WebMSort
     /// <summary>
     /// Base class for folders.
     /// </summary>
-    public abstract class Folder
-    {
-        public string FolderPath { get; set; }
-
-        public Folder()
-        {
-            FolderPath = "";
-        }
-    }
-
-    /// <summary>
-    /// Source folder containing files for processing.
-    /// </summary>
-    public class SourceFolder : Folder
+    public class SourceFolder
     {
         /// <summary>
         /// List of all the files.
         /// </summary>
         public List<string> FilePaths { get; set; }
+
+        public string FolderPath { get; set; }
 
         /// <summary>
         /// Class constructor.
@@ -38,12 +27,6 @@ namespace WebMSort
         /// <param name="FolderPath"> Directory path.</param>
         public SourceFolder(string folderPath)
         {
-            //if (Directory.Exists(FolderPath))
-            //{
-            //    FolderPath = FolderPath;
-            //    ProcessDirectory();
-            //}
-
             FolderPath = folderPath;
             ProcessDirectory();
         }
@@ -51,7 +34,7 @@ namespace WebMSort
         /// <summary>
         /// Populates FilePaths with all the files inside the directory then removes ones that have incorrect extensions.
         /// </summary>
-        private void ProcessDirectory()
+        public void ProcessDirectory()
         {
             FilePaths = Directory.GetFiles(FolderPath).ToList();
             for (int i = FilePaths.Count - 1; i > -1; i--)
@@ -62,19 +45,5 @@ namespace WebMSort
                 }
             }
         }
-
-        /// <summary>
-        /// Checks if there are any files left for processing.
-        /// </summary>
-        /// <returns> True - there are files left; False - directory has no suitable files. </returns>
-        public bool AreThereFilesLeft(int currentIndex)
-        {
-            if (currentIndex >= FilePaths.Count)
-            {
-                return false;
-            }
-            return true;
-        }
     }
-
 }
